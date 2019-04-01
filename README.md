@@ -1,5 +1,7 @@
-## A Dockerfile for the [ArchiveTeam Warrior](https://www.archiveteam.org/index.php?title=ArchiveTeam_Warrior)
+## A Heroku-Compatible Dockerfile for the [ArchiveTeam Warrior](https://www.archiveteam.org/index.php?title=ArchiveTeam_Warrior)
 <img alt="Warrior logo" src="https://www.archiveteam.org/images/f/f3/Archive_team.png" height="100px"><img alt="Docker logo" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" height="100px">
+
+Deploy here: https://heroku.com/deploy?template=https://github.com/tech234a/warrior-dockerfile/
 
 Build, run, grab the container IP and access the web interface on port 8001.
 
