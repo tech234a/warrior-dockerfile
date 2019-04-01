@@ -1,0 +1,10 @@
+setup:
+  addons:
+    - plan: heroku-postgresql
+      as: DATABASE
+  config:
+    DOWNLOADER: tech234a
+    SELECTED_PROJECT: auto
+build:
+  docker:
+    worker: Dockerfile
