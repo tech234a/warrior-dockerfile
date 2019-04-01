@@ -1,3 +1,10 @@
 {
-  "name": "googleplus-grab"
+  "name": "googleplus-grab",
+  "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
