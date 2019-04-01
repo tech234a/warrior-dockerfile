@@ -5,5 +5,3 @@ setup:
 build:
   docker:
     worker: Dockerfile
-run:
-  worker: ./warrior-boot.sh
